@@ -1,6 +1,5 @@
 # Introduction to machine learning
 
-
 ## Run
 
 You can open the notebooks in the code editor of your choice. As I'm toying around with the package manager `nix`, I've included a way to spin up a consistent jupyter lab.
@@ -10,4 +9,5 @@ To install via `nix`:
    ```sh
    curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
    ```
-  - then run jupyter lab via: `nix run` (you must be in the root directory of this project)
+  - then run jupyter lab via: `nix run`
+    - make sure you are in the root directory of this project and can see a `flake.nix` file
